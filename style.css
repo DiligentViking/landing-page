@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');  /* Copied this line from "modal" exercise */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');  /* i went to google fonts and got this myself */
 
 body {
   font-family: Roboto;
@@ -129,4 +129,34 @@ button {
 
 .card .text {
   text-align: center;
+  color: #96989b;  /* a custom color */
+}
+
+/* ---------- */
+
+.testimonial {
+  background-color: #E5E7EB;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  /* this does nothing to the quote unless it has a defined width */
+}
+
+.testimonial .content {
+  color: #1F2937;
+  width: 850px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  /* font-weight: 400; [research if there is a keyword to make text lighter]*/
+  font-weight: 300; /* can't make font lighter for some reason */
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 90px;
 }
