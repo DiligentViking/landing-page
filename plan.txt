@@ -1,0 +1,3 @@
+So the main structure of the page will be in three parts: header, content, footer.
+
+I will use flexbox for all of this because I am supposed to and it is simple and awesome.
