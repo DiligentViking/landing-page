@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');  /* Copied this line from "modal" exercise */
+
 body {
   font-family: Roboto;
-  outline: 2px solid red;
 }
 
 .header {
-  outline: 2px solid red;
-}
-
-.logo {
-  outline: 2px solid red;
+  background-color: #1F2937;
+  color: #F9FAF8
 }
