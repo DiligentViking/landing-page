@@ -17,7 +17,9 @@ body {
 }
 
 .header-content {
-  width: 1050px;  /* This has a display of block */
+  width: 1050px;  /* This has a display of block [or used to]*/
+  display: flex;
+  flex-direction: column;
 }
 
 .top-bar {
