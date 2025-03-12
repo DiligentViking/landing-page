@@ -11,3 +11,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.top-bar {
+  display: flex;
+}
+
+.content-bar {
+  display: flex;
+}
