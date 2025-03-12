@@ -93,3 +93,19 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+/* ---------- */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  height: 500px;  /* this is the height [tried flex-basis at first but it dint work] */
+  align-items: center;
+}
+
+.information .title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 50px;
+}
