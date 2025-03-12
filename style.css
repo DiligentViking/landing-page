@@ -156,7 +156,44 @@ button {
 
 .author {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   text-align: right;
   margin-right: 90px;
+}
+
+/* ---------- */
+
+.call-to-action {
+  height: 350px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action .content {
+  background-color: #3882F6;
+  border-radius: 8px;
+  width: 1225px;  /* hm, ill have to add some padding */
+  height: 150px;  /* man this feels clunky, but i tried doing inline but to not effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.statement {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body {
+  color: #E5E7EB;
+}
+
+.call-to-action button {
+  margin: 0;
+  border: 2px solid #F9FAF8;  /* the other properties are inherited from the one above */
+  padding: 8px 0px;
 }
