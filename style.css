@@ -150,13 +150,13 @@ button {
 
 .quote {
   font-style: italic;
+  font-weight: 300;
   font-size: 36px;
-  /* font-weight: 400; [research if there is a keyword to make text lighter]*/
-  font-weight: 300; /* can't make font lighter for some reason */
 }
 
 .author {
   font-weight: bold;
+  font-size: 20px;
   text-align: right;
   margin-right: 90px;
 }
